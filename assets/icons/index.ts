@@ -1,0 +1,8 @@
+export { default as ArchiveIcon } from './Archive'
+export { default as ArchiveActiveIcon } from './ArchiveActive'
+export { default as CategoriesIcon } from './Categories'
+export { default as CategoriesActiveIcon } from './CategoriesActive'
+export { default as ShowMoreIcon } from './ShowMore'
+export { default as ContextMenuIcon } from './ContextMenu'
+export { default as CreateIcon } from './CreateIcon'
+export { default as PlusIcon } from './PlusIcon'

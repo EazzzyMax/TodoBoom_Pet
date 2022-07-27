@@ -1,0 +1,96 @@
+// {
+// 	"env": {
+// 		"browser": true,
+// 		"es2021": true,
+// 		"react-native/react-native": true
+// 	},
+// 	"extends": [
+// 		"eslint:recommended",
+// 		"plugin:@typescript-eslint/eslint-recommended",
+// 		"plugin:@typescript-eslint/recommended",
+// 		"plugin:react-native/all"
+// 	],
+// 	"parser": "@typescript-eslint/parser",
+// 	"parserOptions": {
+// 		"ecmaFeatures": {
+// 			"jsx": true
+// 		},
+// 		"ecmaVersion": "latest",
+// 		"sourceType": "module"
+// 	},
+// 	"plugins": ["react", "@typescript-eslint", "react-native"],
+// 	"rules": {
+// 		"indent": ["warn", "tab"],
+// 		"quotes": ["warn", "single"],
+// 		"semi": ["warn", "never"],
+// 		"camelcase": "warn",
+// 		"class-methods-use-this": "warn",
+// 		"default-param-last": "warn",
+// 		"eqeqeq": "warn",
+// 		"guard-for-in": "warn",
+// 		"no-console": "warn",
+// 		"no-invalid-this": "warn",
+// 		"no-lone-blocks": "warn",
+// 		"no-unused-vars": "off",
+// 		"@typescript-eslint/no-unused-vars": ["warn"],
+// 		"no-var": "warn",
+// 		"prefer-const": "warn",
+// 		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+// 		"react-native/no-unused-styles": 2,
+// 		"react-native/split-platform-components": 2,
+// 		"react-native/no-inline-styles": 2,
+// 		"react-native/no-color-literals": 1,
+// 		"react-native/no-raw-text": 1,
+// 		"react-native/no-single-element-style-arrays": 2,
+// 		"react-native/sort-styles": "off"
+// 	}
+// }
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"react-native/react-native": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react-native/all"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"plugins": ["react", "@typescript-eslint", "react-native"],
+	"rules": {
+		"indent": ["warn", "tab"],
+		"quotes": ["warn", "single"],
+		"semi": ["warn", "never"],
+		"camelcase": "warn",
+		"class-methods-use-this": "warn",
+		"default-param-last": "warn",
+		"eqeqeq": "warn",
+		"guard-for-in": "warn",
+		"no-console": "warn",
+		"no-invalid-this": "warn",
+		"no-lone-blocks": "warn",
+		"no-unused-vars": "off",
+		"@typescript-eslint/no-unused-vars": ["warn"],
+		"no-var": "warn",
+		"prefer-const": "warn",
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
+		"react-native/no-unused-styles": 1,
+		"react-native/split-platform-components": 1,
+		"react-native/no-inline-styles": 1,
+		"react-native/no-color-literals": 1,
+		"react-native/no-raw-text": 1,
+		"react-native/no-single-element-style-arrays": 1,
+		"react-native/sort-styles": "off"
+	}
+}
+
+
